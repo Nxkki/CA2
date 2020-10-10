@@ -1,0 +1,53 @@
+<object-stream>
+  <sample.GenericLinkedList>
+    <head>
+      <next>
+        <next>
+          <contents class="sample.Recipe">
+            <drink>
+              <name>vodka and coke</name>
+              <placeOfOrigin>Russia</placeOfOrigin>
+              <textualDescription>good for night outs</textualDescription>
+            </drink>
+            <ingredient>
+              <name>vodka</name>
+              <type>Alcoholic</type>
+              <textualDescription>over 18s</textualDescription>
+              <alcoholContent>42.06349206349206</alcoholContent>
+            </ingredient>
+            <quantity>20</quantity>
+          </contents>
+        </next>
+        <contents class="sample.Recipe">
+          <drink>
+            <name>vodka and coke</name>
+            <placeOfOrigin>Russia</placeOfOrigin>
+            <textualDescription>good for night outs</textualDescription>
+          </drink>
+          <ingredient>
+            <name>vodka</name>
+            <type>Alcoholic</type>
+            <textualDescription>over 18s</textualDescription>
+            <alcoholContent>42.06349206349206</alcoholContent>
+          </ingredient>
+          <quantity>10</quantity>
+        </contents>
+      </next>
+      <contents class="sample.Recipe">
+        <drink>
+          <name>rum</name>
+          <placeOfOrigin>qwd</placeOfOrigin>
+          <textualDescription>wqd</textualDescription>
+        </drink>
+        <ingredient>
+          <name>ice</name>
+          <type>Non-Alcoholic</type>
+          <textualDescription>we</textualDescription>
+          <alcoholContent>0.0</alcoholContent>
+        </ingredient>
+        <quantity>2</quantity>
+      </contents>
+    </head>
+    <numElem>3</numElem>
+  </sample.GenericLinkedList>
+</object-stream>

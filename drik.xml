@@ -1,0 +1,97 @@
+<object-stream>
+  <sample.FastHashSC>
+    <hashTable>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <head>
+          <contents class="sample.Drink">
+            <name>rum</name>
+            <placeOfOrigin>qwd</placeOfOrigin>
+            <textualDescription>wqd</textualDescription>
+          </contents>
+        </head>
+        <numElem>1</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <head>
+          <contents class="sample.Drink"/>
+        </head>
+        <numElem>1</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <head>
+          <contents class="sample.Drink">
+            <name>white wine</name>
+            <placeOfOrigin>ca</placeOfOrigin>
+            <textualDescription>as</textualDescription>
+          </contents>
+        </head>
+        <numElem>1</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <head>
+          <next>
+            <contents class="sample.Drink">
+              <name>vodka and coke</name>
+              <placeOfOrigin>Russia</placeOfOrigin>
+              <textualDescription>good for night outs</textualDescription>
+            </contents>
+          </next>
+          <contents class="sample.Drink">
+            <name>vodka and lime</name>
+            <placeOfOrigin>Russia </placeOfOrigin>
+            <textualDescription>Fun with friends</textualDescription>
+          </contents>
+        </head>
+        <numElem>2</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+      <sample.GenericLinkedList>
+        <numElem>0</numElem>
+      </sample.GenericLinkedList>
+    </hashTable>
+  </sample.FastHashSC>
+</object-stream>

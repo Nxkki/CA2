@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.recipeController">
+    <children>
+        <ImageView fitHeight="400.0" fitWidth="350.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@drink.png" />
+            </image>
+        </ImageView>
+        <Text fill="#e1881cfc" layoutX="17.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADDING A RECIPE" wrappingWidth="280.1953125">
+            <font>
+                <Font name="System Bold Italic" size="31.0" />
+            </font>
+        </Text>
+        <Text layoutX="17.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Drink:" />
+        <Text layoutX="10.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ingredient:" />
+        <Button layoutX="17.0" layoutY="345.0" mnemonicParsing="false" onAction="#btnSubmitRecipe" prefHeight="25.0" prefWidth="109.0" text="Submit" />
+        <Button layoutX="180.0" layoutY="345.0" mnemonicParsing="false" onAction="#btnBackMain" prefHeight="25.0" prefWidth="109.0" text="Back" />
+        <ListView fx:id="lstViewRecipe" layoutX="313.0" prefHeight="400.0" prefWidth="287.0" />
+        <Text layoutX="14.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity:" />
+        <TextField fx:id="txtFieldRecipeQuantity" layoutX="83.0" layoutY="173.0" />
+        <ChoiceBox fx:id="cbxRecipeIngredient" layoutX="82.0" layoutY="121.0" prefWidth="150.0" />
+        <Button layoutX="16.0" layoutY="282.0" mnemonicParsing="false" onAction="#btnRecipeAdd" prefHeight="25.0" prefWidth="109.0" text="Add Recipe" />
+        <Label fx:id="lblDrinkRecipe" layoutX="143.0" layoutY="64.0" text="Label" textFill="#f3a201" />
+    </children>
+</Pane>
+        <!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import javafx.scene.control.Button?>-->
+<!--<?import javafx.scene.control.ChoiceBox?>-->
+<!--<?import javafx.scene.control.Label?>-->
+<!--<?import javafx.scene.control.ListView?>-->
+<!--<?import javafx.scene.control.TextField?>-->
+<!--<?import javafx.scene.image.Image?>-->
+<!--<?import javafx.scene.image.ImageView?>-->
+<!--<?import javafx.scene.layout.Pane?>-->
+<!--<?import javafx.scene.text.Text?>-->
+
+<!--<?import javafx.scene.text.Font?>-->
+<!--<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.recipeController">-->
+   <!--<children>-->
+      <!--<ImageView fitHeight="402.0" fitWidth="608.0" layoutX="-4.0" layoutY="-1.0">-->
+         <!--<image>-->
+            <!--<Image url="@drink.png" />-->
+         <!--</image>-->
+      <!--</ImageView>-->
+       <!--<Text fill="#e1881cfc" layoutX="17.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADDING A RECIPE" wrappingWidth="280.1953125">-->
+           <!--<font>-->
+               <!--<Font name="System Bold Italic" size="31.0" />-->
+           <!--</font>-->
+       <!--</Text>-->
+      <!--<Text layoutX="20.0" layoutY="185.0" strokeType="OUTSIDE" strokeWidth="0.0" text="select Ingrediant list" wrappingWidth="115.13671875" />-->
+      <!--<ChoiceBox fx:id="ingrediantChoiceBox" layoutX="142.0" layoutY="168.0" prefWidth="150.0" />-->
+      <!--<Button layoutX="58.0" layoutY="327.0" mnemonicParsing="false" onAction="#btnBackMain" text="Back" />-->
+       <!--<Text layoutX="17.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Drink:" />-->
+
+
+      <!--&lt;!&ndash;<Text layoutX="38.0" layoutY="141.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select Drink" wrappingWidth="62.9765625" />&ndash;&gt;-->
+      <!--<Text layoutX="79.0" layoutY="125.0" strokeType="OUTSIDE" strokeWidth="0.0" />-->
+       <!--<TextField fx:id="txtFieldRecipeQuantity" layoutX="128.0" layoutY="220.0" />-->
+       <!--<Button layoutX="16.0" layoutY="282.0" mnemonicParsing="false" onAction="#btnRecipeAdd" prefHeight="25.0" prefWidth="109.0" text="Add Recipe" />-->
+       <!--&lt;!&ndash;<Button layoutX="222.0" layoutY="333.0" mnemonicParsing="false" onAction="#SubmitRecipe" prefHeight="25.0" prefWidth="109.0" text="Submit" />&ndash;&gt;-->
+       <!--<Label fx:id="lblDrinkRecipe" layoutX="143.0" layoutY="64.0" text="Label" textFill="#f3a201" />-->
+
+      <!--&lt;!&ndash;<ChoiceBox fx:id="drinkNameChoiceBox" layoutX="142.0" layoutY="124.0" prefWidth="150.0" />&ndash;&gt;-->
+
+
+       <!--<Text layoutX="34.0" layoutY="228.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Quantity:" />-->
+      <!--&lt;!&ndash;<Slider layoutX="147.0" layoutY="215.0" majorTickUnit="50.0" max="200.0" minorTickCount="5" showTickLabels="true" showTickMarks="true" />&ndash;&gt;-->
+      <!--<ListView fx:id="lstViewRecipe" layoutX="343.0" prefHeight="402.0" prefWidth="261.0" />-->
+
+
+   <!--</children>-->
+<!--</Pane>-->

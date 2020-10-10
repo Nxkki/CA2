@@ -1,0 +1,69 @@
+<object-stream>
+  <sample.GenericLinkedList>
+    <head>
+      <next>
+        <next>
+          <next>
+            <next>
+              <next>
+                <next>
+                  <next>
+                    <contents class="sample.Ingredient">
+                      <name>zew</name>
+                      <type>Non-Alcoholic</type>
+                      <textualDescription>qwd</textualDescription>
+                      <alcoholContent>19.04761904761904</alcoholContent>
+                    </contents>
+                  </next>
+                  <contents class="sample.Ingredient">
+                    <name>zee</name>
+                    <type>Alcoholic</type>
+                    <textualDescription>we</textualDescription>
+                    <alcoholContent>65.07936507936508</alcoholContent>
+                  </contents>
+                </next>
+                <contents class="sample.Ingredient">
+                  <name>vodka</name>
+                  <type>Alcoholic</type>
+                  <textualDescription>over 18s</textualDescription>
+                  <alcoholContent>42.06349206349206</alcoholContent>
+                </contents>
+              </next>
+              <contents class="sample.Ingredient">
+                <name>sugar </name>
+                <type>Non-Alcoholic</type>
+                <textualDescription>in moderation</textualDescription>
+                <alcoholContent>0.0</alcoholContent>
+              </contents>
+            </next>
+            <contents class="sample.Ingredient">
+              <name>lime</name>
+              <type>Non-Alcoholic</type>
+              <textualDescription>fruit</textualDescription>
+              <alcoholContent>0.0</alcoholContent>
+            </contents>
+          </next>
+          <contents class="sample.Ingredient">
+            <name>ice</name>
+            <type>Non-Alcoholic</type>
+            <textualDescription>we</textualDescription>
+            <alcoholContent>0.0</alcoholContent>
+          </contents>
+        </next>
+        <contents class="sample.Ingredient">
+          <name>apple</name>
+          <type>Non-Alcoholic</type>
+          <textualDescription>fruit</textualDescription>
+          <alcoholContent>0.0</alcoholContent>
+        </contents>
+      </next>
+      <contents class="sample.Ingredient">
+        <name>Chocolate</name>
+        <type>Non-Alcoholic</type>
+        <textualDescription>good treat</textualDescription>
+        <alcoholContent>0.0</alcoholContent>
+      </contents>
+    </head>
+    <numElem>8</numElem>
+  </sample.GenericLinkedList>
+</object-stream>

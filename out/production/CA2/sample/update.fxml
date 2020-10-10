@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.deleteController">
+    <children>
+        <ImageView fitHeight="402.0" fitWidth="608.0" layoutX="-4.0" layoutY="-1.0">
+            <image>
+                <Image url="@drink.png" />
+            </image>
+        </ImageView>
+      <TextField fx:id="updateDrink" promptText="drink you want to update" layoutX="200.0" layoutY="53.0" />
+
+        <TextField fx:id="txtFieldDrinkName" layoutX="200.0" layoutY="143.0" promptText="drink " />
+        <Text layoutX="57.0" layoutY="160.0" strokeType="OUTSIDE" strokeWidth="0.0" text="name of beverage: " />
+        <ListView fx:id="lstViewDrink" layoutX="413.0" prefHeight="400.0" prefWidth="190.0" />
+        <Button layoutX="22.0" layoutY="323.0" mnemonicParsing="false" onAction="#updateDrink" prefHeight="25.0" prefWidth="137.0" text="Submit" />
+        <Text layoutX="65.0" layoutY="205.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Place Of Origin::" />
+        <TextField fx:id="txtFieldPlaceOfOrigin" layoutX="200.0" layoutY="188.0" />
+        <Text layoutX="26.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Textual Description:" />
+        <TextArea fx:id="txtAreaTextualDescription" layoutX="200.0" layoutY="234.0" prefHeight="89.0" prefWidth="200.0" />
+        <Button layoutX="188.0" layoutY="350.0" mnemonicParsing="false" onAction="#btnBackToIndex" text="Back" />
+
+
+
+
+
+
+    </children>
+</Pane>

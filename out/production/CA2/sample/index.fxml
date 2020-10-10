@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.indexController">
+   <children><Button layoutX="278.0" layoutY="236.0" mnemonicParsing="false" text="Reset" />
+       <ImageView fitHeight="402.0" fitWidth="608.0" layoutX="-4.0" layoutY="-1.0">
+           <image>
+               <Image url="@drink.png" />
+           </image>
+       </ImageView>
+      <Button layoutX="25.0" layoutY="72.0" mnemonicParsing="false" onAction="#showDrinksScreen" opacity="0.76" prefHeight="99.0" prefWidth="213.0" text="Drinks" textFill="#d0671c" />
+      <Button layoutX="359.0" layoutY="68.0" mnemonicParsing="false" onAction="#showIngedientsScreen" opacity="0.76" prefHeight="107.0" prefWidth="213.0" text="Ingredients" textFill="#d0671c" />
+      <!--<Button layoutX="25.0" layoutY="248.0" mnemonicParsing="false" onAction="#showRecipeScreen" opacity="0.76" prefHeight="99.0" prefWidth="213.0" text="Recipe" textFill="#d0671c" />-->
+      <Button onAction="#showViewScreen" layoutX="360.0" layoutY="248.0" mnemonicParsing="false" opacity="0.76" prefHeight="99.0" prefWidth="213.0" text="View all" textFill="#d0671c" />
+      <Button layoutX="275.0" layoutY="159.0" mnemonicParsing="false" onAction="#showSearchScreen" text="Search" />
+       <Button layoutX="276.0" layoutY="224.0" mnemonicParsing="false" onAction="#showDeleteScreen" text="Delete" />
+       <Button layoutX="274.0" layoutY="188.0" mnemonicParsing="false" onAction="#showUpdateScreen" text="Update" />
+
+
+   </children>
+</Pane>

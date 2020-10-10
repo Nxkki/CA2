@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.drinkController">
+   <children>
+       <ImageView fitHeight="402.0" fitWidth="608.0" layoutX="-4.0" layoutY="-1.0">
+           <image>
+               <Image url="@drink.png" />
+           </image>
+       </ImageView>
+      <TextField fx:id="txtFieldDrinkName" layoutX="26.0" layoutY="79.0" promptText="cranberry juice, mocha" />
+      <Text layoutX="40.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="name of beverage: " />
+      <Text fill="#e1881c" layoutX="10.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ADDING A DRINK" wrappingWidth="329.1953125">
+         <font>
+            <Font name="System Bold Italic" size="31.0" />
+         </font></Text>
+      <ListView fx:id="lstViewDrink" layoutX="329.0" prefHeight="400.0" prefWidth="274.0" />
+       <Button layoutX="22.0" layoutY="323.0" mnemonicParsing="false" onAction="#addDrink" prefHeight="25.0" prefWidth="137.0" text="Submit" />
+      <Text layoutX="48.0" layoutY="144.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Place Of Origin::" />
+      <TextField fx:id="txtFieldPlaceOfOrigin" layoutX="26.0" layoutY="155.0" />
+      <Text layoutX="38.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Textual Description:" />
+      <TextArea fx:id="txtAreaTextualDescription" layoutX="17.0" layoutY="224.0" prefHeight="89.0" prefWidth="200.0" />
+      <Button layoutX="189.0" layoutY="323.0" mnemonicParsing="false" onAction="#btnBackToIndexScreen" prefHeight="25.0" prefWidth="124.0" text="Back" />
+      <Button layoutX="21.0" layoutY="361.0" mnemonicParsing="false" onAction="#btnAddRecipe" prefHeight="25.0" prefWidth="137.0" text="Add Recipe" />
+   </children>
+</Pane>

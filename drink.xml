@@ -1,0 +1,44 @@
+<object-stream>
+  <sample.GenericSet>
+    <head>
+      <item class="sample.Drink">
+        <name>white wine</name>
+        <placeOfOrigin>ca</placeOfOrigin>
+        <textualDescription>as</textualDescription>
+      </item>
+      <next>
+        <item class="sample.Drink">
+          <name>rum</name>
+          <placeOfOrigin>qwd</placeOfOrigin>
+          <textualDescription>wqd</textualDescription>
+        </item>
+        <next>
+          <item class="sample.Drink">
+            <name>red wine</name>
+            <placeOfOrigin>en</placeOfOrigin>
+            <textualDescription>we</textualDescription>
+          </item>
+          <next>
+            <item class="sample.Drink">
+              <name>vodka and lime</name>
+              <placeOfOrigin>Russia </placeOfOrigin>
+              <textualDescription>Fun with friends</textualDescription>
+            </item>
+            <next>
+              <item class="sample.Drink">
+                <name>vodka and coke</name>
+                <placeOfOrigin>Russia</placeOfOrigin>
+                <textualDescription>good for night outs</textualDescription>
+              </item>
+              <outer-class reference="../../../../../.."/>
+            </next>
+            <outer-class reference="../../../../.."/>
+          </next>
+          <outer-class reference="../../../.."/>
+        </next>
+        <outer-class reference="../../.."/>
+      </next>
+      <outer-class reference="../.."/>
+    </head>
+  </sample.GenericSet>
+</object-stream>
